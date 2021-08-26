@@ -1,0 +1,23 @@
+{
+    "name": "ubico/ubico",
+    "require": {
+        "jenssegers/blade": "^1.4",
+        "vlucas/valitron": "^1.4",
+        "filp/whoops": "^2.14",
+        "arrilot/dotenv-php": "^2.0",
+        "illuminate/database": "^8.54",
+        "aura/session": "^2.1",
+        "nesbot/carbon": "^2.51",
+        "izniburak/router": "^2.3",
+        "verot/class.upload.php": "^2.1",
+        "php-curl-class/php-curl-class": "^9.3",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app",
+            "Core\\": "./core"
+        },
+        "files": ["./app/helpers.php", "./core/helpers.php"]
+    }
+}
